@@ -17,3 +17,6 @@ After posting the comment, the server error displays the cookie again.
 "XSS-test3"
 
 This test shows how more functonality of JavaScript is reflected in a post. I enter the syntax to display a botton, that triggers an alert when clicked. After, submitting the post and clicking on the screen, a server-side alert is displayed.
+
+
+These are examples of reflected cross-site scripting because the JavaScript I entered is being reflected back to the the person viewing it.
