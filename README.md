@@ -15,9 +15,11 @@ In this exploit, I demonstrate the same behavior when commenting on a post that 
 In the Comments section, below a post, I typed the same JavaScript action: <body onload=alert(document.cookie)>
 After posting the comment, the server error displays the cookie again.
   
+These are examples of reflected cross-site scripting because the JavaScript I entered is being reflected back to the the person viewing it.
+  
 "XSS-test3"
 
 This test shows how more functonality of JavaScript is reflected in a post. I enter the syntax to display a botton, that triggers an alert when clicked. After, submitting the post and clicking on the screen, a server-side alert is displayed.
 
+This is an example of a stored cross-site scripting attack because it atatcks the server, not the user.
 
-These are examples of reflected cross-site scripting because the JavaScript I entered is being reflected back to the the person viewing it.
