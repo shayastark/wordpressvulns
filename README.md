@@ -3,6 +3,7 @@ Finding and exploiting vulnerabilities in wordpress websites.
 
 Reflected Cross-Site Scripting
 WordPress version: 4.2
+
 "XSS-test1"
 
 In this XSS exploit I was able to get a user’s cookie by creating a post using JavaScript.
